@@ -3,39 +3,47 @@ import streamlit as st
 # Title of the app
 st.title('Advanced Widgets in Streamlit')
 
-# st.subheader('Select Box')
+##########  Select Box  ##########
 
-# # Adding a Selectbox
-# # Creates a dropdown menu that allows users to select one option from a list.
-# option = st.selectbox('Choose an option:', ['Option 1', 'Option 2', 'Option 3'])
+st.subheader('Select Box')
 
-# # Display the selected option
-# st.write(f'You selected: {option}')
+# Adding a Selectbox
+# Creates a dropdown menu that allows users to select one option from a list.
+option = st.selectbox('Choose an option:', ['Option 1', 'Option 2', 'Option 3'])
 
-# import streamlit as st
+# Display the selected option
+st.write(f'You selected: {option}')
 
-# st.subheader('Date picker')
+####################################
 
-# # Adding Date Input
-# selected_date = st.date_input('Select a date')
+##########  Date Picker  ##########
 
-# # Display the selected date
-# # Creates a date picker for selecting dates.
-# st.write(f'You selected: {selected_date}')
+st.subheader('Date picker')
 
-# import streamlit as st
+# Adding Date Input
+selected_date = st.date_input('Select a date')
 
-# st.subheader('File uploader')
+# Display the selected date
+# Creates a date picker for selecting dates.
+st.write(f'You selected: {selected_date}')
 
-# # Adding File Uploader
-# # Creates a file upload interface allowing users to upload files.
-# uploaded_file = st.file_uploader('Upload a file')
+####################################
 
-# # Display the file name
-# if uploaded_file is not None:
-#     st.write(f'Uploaded file: {uploaded_file.name}')
+##########  File Uploader  ##########
 
-import streamlit as st
+st.subheader('File uploader')
+
+# Adding File Uploader
+# Creates a file upload interface allowing users to upload files.
+uploaded_file = st.file_uploader('Upload a file')
+
+# Display the file name
+if uploaded_file is not None:
+    st.write(f'Uploaded file: {uploaded_file.name}')
+
+####################################
+
+##########  Radio Button  ##########
 
 st.subheader('Radio Button')
 
@@ -45,4 +53,6 @@ choice = st.radio('Pick a choice:', ['Choice 1', 'Choice 2', 'Choice 3'])
 
 # Display the selected choice
 st.write(f'You selected: {choice}')
+
+####################################
 
