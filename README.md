@@ -1,2 +1,2 @@
 # 30daysofstreamlit
-Dive into Streamlit with the 30 Days of Streamlit challenge! This repo offers a structured learning path with daily exercises and projects to help you become proficient in building interactive web apps for data science. Start your journey, learn by doing, and showcase your progress with #30DaysOfStreamlit.
+Master Streamlit in 30 days with this structured challenge! This repository provides daily exercises and projects to help you build interactive web apps for data science. Inspired by the #30DaysOfStreamlit series by [Vedant Solanki](https://www.linkedin.com/in/vedantsolanki).
